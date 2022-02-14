@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sens-serif;
+    background-color: #f6d327;
+    background-image: linear-gradient(135deg,  #de4daa 50%, #de4daa 90%);
+}
+.menu {
+    background-color: #f8fbfc;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h1 {
+    width: 600px;
+    height: 100px;
+    padding:  15px 10px;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: .5;
+}
+.menu .fa-solid {
+    transition: transform .3s;
+}
+.menu p {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+.socila-lists {
+    background-color: rgb(40, 9, 99);
+    width: 300px;
+    list-style-type: none;
+    /* opacity: .3; */
+    padding: 10px;
+    border-radius: 5px;
+}
+.socila-lists li {
+    border-bottom: solid 1px rgb(8, 1, 22) ;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: padding .3s linear;
+    color: white;
+}
+.socila-lists li:hover {
+    background-color: rgba(69, 57, 124, 0.5);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.socila-lists li .fa-brands {
+    margin: 0 10px;
+}
+.rotate .fa-solid {
+    transform: rotate(180deg);
+}
+.hide {
+    visibility: hidden;
+}
